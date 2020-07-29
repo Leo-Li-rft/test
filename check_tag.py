@@ -34,7 +34,7 @@ def error_exit(msg):
 
 def ok_exit():
 	print('Everything is ok')
-	sys.exit(1)
+	sys.exit(0)
 
 def parse_arguments():
 	ap = argparse.ArgumentParser()
