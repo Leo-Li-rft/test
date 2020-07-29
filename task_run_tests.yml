@@ -8,6 +8,7 @@ image_resource:
 inputs:
   - name: test
   - name: app
+    path: /tmp
 
 run:
-  path: resource-tutorial/tutorials/basic/job-inputs/task_run_tests.sh
+  path: test/task_run_tests.sh
