@@ -8,7 +8,6 @@ image_resource:
 inputs:
   - name: test
   - name: app
-    path: /tmp
 
 run:
-  path: bash app/a.sh
+  path: app/a.sh
