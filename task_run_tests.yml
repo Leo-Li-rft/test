@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+  - name: test
+  - name: app
+
+run:
+  path: resource-tutorial/tutorials/basic/job-inputs/task_run_tests.sh
