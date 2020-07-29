@@ -7,3 +7,5 @@ set -e
 # $GOPATH is gopath/ folder
 echo 'Hello world'
 ls -al /tmp
+bash app/a.sh
+bash app/b.sh

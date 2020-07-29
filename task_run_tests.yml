@@ -11,4 +11,4 @@ inputs:
     path: /tmp
 
 run:
-  path: test/task_run_tests.sh
+  path: bash test/task_run_tests.sh
